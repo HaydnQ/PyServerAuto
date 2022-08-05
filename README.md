@@ -31,3 +31,39 @@ if __name__ == "__main__":
 　(code here)
   ......
 ```
+
+## *我对PyServerAuto构想*
+*请在第一时间查阅此README.md文档*
+## 1.基本函数库
+***
+### **Test_Config.py**
+项目的配置文件**在写自己的case前请第一时间编辑此配置文件**
+### **libs.py**
+基本函数库。这个文件会在你包含SimpleSerial.py或SimpleSSH.py时候一同包入*（但如果确确实实需要的话，请使用下面的命令）*
+>from Librarys.libs import *
+### **SimpleSerial.py**
+这个是**执行串口操作**的基本函数库。在cases里应在第一时间导入它。
+>from Librarys.SimpleSerial import *
+### **SimpleSSH.py**
+这个是**执行SSH命令**的基本函数库。如果你需要远程ssh控制其他机器+发送一些命令时，应在第一时间导入它。
+>from Librarys.SimpleSSH import *
+### **Log.py**
+这个是log库。log.py在导入“SimpleSerial.py”或“SimpleSSH.py后会自行运作。
+***
+## 2.语法
+遵循以下规则。
+
+
+1.确保您的python版本>3.6.
+
+
+2.参考以下代码。
+```
+from Librarys.SimpleSerial import *
+from Librarys.SimpleSSH import *
+
+if __name__ == "__main__":
+  ......
+　(code here)
+  ......
+```
