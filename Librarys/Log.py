@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+# @Time    : 2022/5/25 15:00
+# @Author  : Haydn
+# @Email   : haydnqiu@qq.com
+# @File    : Log.py
+# @Software: PyCharm
+
 # coding=utf-8
 import logging
 from logging.handlers import RotatingFileHandler, TimedRotatingFileHandler
@@ -14,7 +21,7 @@ class Logger(object):
         if not self.logger.handlers:
             self.logger.setLevel(logging.DEBUG)
             fmt = logging.Formatter('[%(asctime)s] [%(levelname)s] %(message)s', '%Y-%m-%d %H:%M:%S')
-            # 设置CMD日志
+            # 设置console日志
             stream_handler = logging.StreamHandler()
             stream_handler.setFormatter(fmt=fmt)
             stream_handler.setLevel(level=level)
