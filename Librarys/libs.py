@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+# @Time    : 2022/5/25 15:00
+# @Author  : Haydn
+# @Email   : haydnqiu@qq.com
+# @File    : libs.py
+# @Software: PyCharm
+
 # coding=utf-8
 import telnetlib
 import time
