@@ -7,8 +7,8 @@
 import re
 import paramiko
 
-from carrera_lib.Log import *
-from carrera_lib.libs import *
+from Librarys.Log import *
+from Librarys.libs import *
 
 
 # Return One Host
