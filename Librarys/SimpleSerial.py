@@ -9,8 +9,8 @@ import xmodem
 import serial.tools.list_ports
 from threading import Thread
 
-from carrera_lib.libs import *
-from carrera_lib.Log import *
+from Librarys.libs import *
+from Librarys.Log import *
 
 
 class SSerial(serial.Serial):
