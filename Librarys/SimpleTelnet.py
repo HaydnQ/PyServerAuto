@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2022/5/25 15:00
 # @Author  : Haydn
-# @Email   : haqiu@celestica.com haydnqiu@qq.com
+# @Email   : haydnqiu@qq.com
 # @File    : SimpleTelnet.py
 # @Software: PyCharm
-from carrera_lib.Log import *
-from carrera_lib.libs import *
+from Librarys.Log import *
+from Librarys.libs import *
 
 
 class STelnet(object):
