@@ -10,7 +10,7 @@ import telnetlib
 import time
 import sys
 from pathlib import Path
-from carrera_lib.Test_Config import *
+from Librarys.Test_Config import *
 
 
 def get_key(dct, value) -> list:
